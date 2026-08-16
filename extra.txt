@@ -1,0 +1,38 @@
+DEAM
+├── Audio
+│   └── 1,802 songs
+│
+├── Emotion annotations
+│   └── 1,802 / 1,802 matched
+│
+├── Song-level metadata
+│   └── 1,802 rows
+│
+└── Dynamic emotion trajectories
+    └── 129,995 rows
+
+
+1. Timbre
+
+These describe the texture and character of the sound:
+
+13 MFCCs
+Spectral centroid
+Spectral bandwidth
+Spectral contrast
+Spectral rolloff
+
+2. Harmony
+
+These capture tonal/harmonic information:
+
+12 Chroma features
+
+3. Energy
+
+RMS energy
+Dynamic range
+
+4. Rhythm
+
+Tempo
