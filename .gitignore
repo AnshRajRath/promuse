@@ -1,4 +1,26 @@
 .venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Local environments / secrets
+.env
+.env.*
+!.env.example
+
+# Raw datasets
 /data/speech/
 /data/music/
+
+# Large model artifacts
 /data/processed/*.pt
+*.pth
+*.ckpt
+
+# Generated local artifacts
+*.log
+.DS_Store
+Thumbs.db
